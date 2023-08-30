@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <style>
+    body{
+      background-color: pink;
+      text-align: center;
+    }
+    .container{
+      border: 1px solid gray;
+      
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+  <br>
+  <h3>
+    Feel free to contact us by filling below form
+  </h3>
+  <form action="/save" method="get">
+    <label>Name:</label>
+    <input type="text" placeholder="Name" name="name">
+    <br>
+    <label>Email:</label>
+    <input type="email" placeholder="email" name="email">
+    <br>
+    <label>Message:</label>
+    <textarea name="message" id="" cols="30" rows="10"></textarea>
+    <br>
+    <label for="tel">Tel</label>
+    <input type="tel" placeholder="Tel" name="tel">
+    <br>
+    <button type="submit"> Submit</button>
+  </form>
+  </div>
+</body>
+</html>
